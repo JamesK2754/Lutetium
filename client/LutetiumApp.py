@@ -191,6 +191,6 @@ def mainloop():
     tk.Button(menuBar, text="Remove item", command = lambda: deleteItem()).pack()
     tk.Button(menuBar, text="Refresh", command = lambda: fillItemList()).pack()
     tk.Button(menuBar, text="About", command = lambda: about()).pack()
-    tk.Button(menuBar, text="Exit", command = lambda: exit()).pack()
+    tk.Button(menuBar, text="Exit", command = lambda: app.destroy()).pack()
 mainloop()
 app.mainloop()
