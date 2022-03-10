@@ -48,3 +48,4 @@ Requirements:
  - PIP:
 	 - mysql.connector
 	 - yourls
+	 - Tkinter Pillow
